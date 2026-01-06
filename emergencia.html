@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Ayuda a VIBE! - Emergencia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Estilos específicos para la página de emergencia */
+        .emergencia-hero {
+            background: linear-gradient(rgba(214, 93, 62, 0.85), rgba(214, 93, 62, 0.9)), url('https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 40px;
+        }
+        .emergencia-contenido {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #F5F1E8;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(107, 143, 113, 0.2);
+            border-left: 8px solid #D65D3E;
+        }
+        .numero-donacion {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #D65D3E;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 25px 0;
+            letter-spacing: 3px;
+            border: 3px dashed #6B8F71;
+        }
+        .pasos-ayuda {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin: 40px 0;
+        }
+        .paso {
+            flex: 1;
+            min-width: 200px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .btn-donar {
+            display: inline-block;
+            background-color: #D65D3E;
+            color: white;
+            padding: 18px 45px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-donar:hover {
+            background-color: #b84c31;
+            transform: scale(1.05);
+        }
+        .volver-inicio {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenido específico de Emergencia -->
+    <div class="emergencia-hero">
+        <h1><i class="fas fa-exclamation-triangle"></i> ¡SOS VIBE!</h1>
+        <p class="eslogan" style="font-size: 1.5rem;">Nos están desmantelando la tienda. Necesitamos tu ayuda.</p>
+    </div>
+
+    <div class="emergencia-contenido">
+        <h2>Un Golpe a Nuestra Comunidad</h2>
+        <p>Querida familia VIBE,</p>
+        <p>Lamentamos informar que nuestro espacio físico, el corazón donde comenzó este movimiento, está siendo desmantelado debido a circunstancias ajenas a nuestra voluntad. Este no es solo un local; es el lugar donde conocimos a muchos de ustedes, donde creamos los primeros diseños y donde la cultura streetwear cobró vida para nosotros.</p>
+        
+        <p><strong>Pero no nos rendimos.</strong> Creemos en esta comunidad y queremos reconstruir. Para eso, necesitamos tu apoyo solidario.</p>
+
+        <div style="text-align: center;">
+            <h3>Haz tu donación al siguiente número:</h3>
+            <div class="numero-donacion">
+                <i class="fas fa-mobile-alt"></i> VIBE-HELP-4268
+            </div>
+            <p>Usa este código como concepto al donar.</p>
+            <a href="#" class="btn-donar" onclick="alert('En un caso real, aquí se enlazaría a una pasarela de pago. ¡Gracias por tu apoyo simulado!');">Donar Ahora</a>
+        </div>
+
+        <h3 style="margin-top: 50px;">¿Cómo más puedes ayudar?</h3>
+        <div class="pasos-ayuda">
+            <div class="paso">
+                <i class="fas fa-share-alt fa-2x" style="color: #6B8F71;"></i>
+                <h4>Comparte</h4>
+                <p>Difunde este mensaje en tus redes. Usa el hashtag <strong>#SaveVIBE</strong>.</p>
+            </div>
+            <div class="paso">
+                <i class="fas fa-shopping-bag fa-2x" style="color: #6B8F71;"></i>
+                <h4>Compra Online</h4>
+                <p>Cada compra en nuestra web nos acerca a la reapertura.</p>
+            </div>
+            <div class="paso">
+                <i class="fas fa-heart fa-2x" style="color: #6B8F71;"></i>
+                <h4>Muestra Apoyo</h4>
+                <p>Deja un mensaje de ánimo en nuestras redes. Significa mucho.</p>
+            </div>
+        </div>
+
+        <p style="text-align: center; font-style: italic; margin-top: 40px; padding: 20px; background-color: rgba(107, 143, 113, 0.1); border-radius: 10px;">
+            "La verdadera esencia de la calle no está en un local, sino en las personas que la visten. Gracias por ser nuestra esencia."<br>
+            <strong>- El equipo VIBE</strong>
+        </p>
+    </div>
+
+    <div class="volver-inicio">
+        <a href="index.html" class="btn-secundario" style="background-color: #1A1A1A;"><i class="fas fa-arrow-left"></i> Volver a la página principal de VIBE</a>
+    </div>
+
+    <footer style="margin-top: 60px;">
+        <p>&copy; 2026 VIBE - Just for your flow. | <strong>#SaveVIBE</strong></p>
+        <p class="footer-legal">Página de campaña de apoyo. La situación es ficticia para fines creativos del proyecto.</p>
+    </footer>
+</body>
+</html>
